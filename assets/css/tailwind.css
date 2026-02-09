@@ -7,3 +7,10 @@ p a:hover {
    transition: color 0.1s ease;
    font-weight: 600;
 }
+
+footer a:hover {
+   color: black;
+   transition: color 0.1s ease;
+   font-weight: 500;
+   text-decoration: underline;
+}

@@ -16,9 +16,11 @@
                      >Goede doelen</NuxtLink
                   >
                </li>
+               <!--
                <li>
                   <NuxtLink to="/spelen" active-class="bold">Spelen</NuxtLink>
                </li>
+               -->
                <li>
                   <NuxtLink to="/organisatie" active-class="bold"
                      >Organisatie</NuxtLink

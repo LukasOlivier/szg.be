@@ -68,4 +68,8 @@ li:hover {
 .bold {
    font-weight: bold;
 }
+
+a {
+   display: block;
+}
 </style>

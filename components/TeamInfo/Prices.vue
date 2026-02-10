@@ -49,12 +49,12 @@ const config = useRuntimeConfig();
 const prices = ref([
    {
       Ploeg: "Volwassenploeg",
-      Inschrijvingsgeld: "€300",
+      Inschrijvingsgeld: "€320",
       Consumatiekaarten: "€100",
    },
    {
       Ploeg: "Familieploeg",
-      Inschrijvingsgeld: "€300",
+      Inschrijvingsgeld: "€320",
       Consumatiekaarten: "€100",
    },
    {

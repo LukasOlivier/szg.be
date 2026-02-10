@@ -19,11 +19,11 @@
                Correcte en snelle betaling is essentieel (de coach ontvangt ook
                een mail met deze info). Schrijf binnen de week over of een
                andere ploeg kan je plaats innemen. Het inschrijfgeld bedraagt €
-               200 (jeugd) of €300 (volwassen & familieploeg), inclusief
+               200 (jeugd) of €320 (volwassen & familieploeg), inclusief
                deelname aan een uniek teambuildingsevenement gedurende een hele
                dag, verzekering voor iedere speler vermeld op het
                verzekeringsformulier, en consumptiekaarten als waarborg ter
-               waarde van respectievelijk €50 of €100.
+               waarde van respectievelijk €40 of €70.
                <a href="/info-voor-ploegen" class="underline"
                   >Lees de overige ploegeninformatie na</a
                >.

@@ -38,7 +38,7 @@ const faqs = ref([
       id: 3,
       question: "Wat kost het om deel te nemen?",
       answer:
-         "Deelname kost €300 voor een volwassenen / familieploeg en €200 voor een jeugdploeg. Hierin zit de deelname aan het tornooi, verzekering en waarborg in vorm van consumatiekaarten inbegrepen.",
+         "Deelname kost €320 voor een volwassenen / familieploeg en €200 voor een jeugdploeg. Hierin zit de deelname aan het tornooi, verzekering en waarborg in vorm van consumatiekaarten inbegrepen.",
    },
    {
       id: 4,

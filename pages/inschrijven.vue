@@ -1,7 +1,7 @@
 <template>
    <div>
       <HeroSection
-         page-title="Inscrijven"
+         page-title="Inschrijven"
          description="Lees zeker de info na vooraleer je inschrijft!"
       />
       <div class="mx-auto my-10 w-11/12 md:w-8/12 lg:w-6/12">
@@ -68,7 +68,7 @@
 
 <script setup>
 useHead({
-   title: "Inscrijven",
+   title: "Inschrijven",
    meta: [
       {
          name: "description",

@@ -18,12 +18,15 @@
             <p>
                Correcte en snelle betaling is essentieel (de coach ontvangt ook
                een mail met deze info). Schrijf binnen de week over of een
-               andere ploeg kan je plaats innemen. Het inschrijfgeld bedraagt €
-               200 (jeugd) of €320 (volwassen & familieploeg), inclusief
-               deelname aan een uniek teambuildingsevenement gedurende een hele
-               dag, verzekering voor iedere speler vermeld op het
-               verzekeringsformulier, en consumptiekaarten als waarborg ter
-               waarde van respectievelijk €40 of €70.
+               andere ploeg kan je plaats innemen. Het inschrijfgeld bedraagt
+               €{{ prices.jeugd }} (jeugd) of €{{ prices.volwassen }} (volwassen
+               & familieploeg), inclusief deelname aan een uniek
+               teambuildingsevenement gedurende een hele dag, verzekering voor
+               iedere speler vermeld op het verzekeringsformulier, en
+               consumptiekaarten als waarborg ter waarde van respectievelijk €{{
+                  prices.jeugdConsumatieKaarten
+               }}
+               of €{{ prices.volwassenConsumatieKaarten }}.
                <a href="/info-voor-ploegen" class="underline"
                   >Lees de overige ploegeninformatie na</a
                >.
@@ -82,6 +85,13 @@ useHead({
 const config = useRuntimeConfig();
 
 const thisYear = ref(new Date().getFullYear());
+
+const prices = ref({
+   jeugd: 200,
+   volwassen: 320,
+   jeugdConsumatieKaarten: 40,
+   volwassenConsumatieKaarten: 70,
+});
 </script>
 
 <style scoped>

@@ -50,17 +50,17 @@ const prices = ref([
    {
       Ploeg: "Volwassenploeg",
       Inschrijvingsgeld: "€320",
-      Consumatiekaarten: "€100",
+      Consumatiekaarten: "€70",
    },
    {
       Ploeg: "Familieploeg",
       Inschrijvingsgeld: "€320",
-      Consumatiekaarten: "€100",
+      Consumatiekaarten: "€70",
    },
    {
       Ploeg: "Jeugdploeg",
       Inschrijvingsgeld: "€200",
-      Consumatiekaarten: "€50",
+      Consumatiekaarten: "€40",
    },
 ]);
 </script>

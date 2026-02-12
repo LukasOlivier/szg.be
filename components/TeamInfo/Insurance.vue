@@ -86,6 +86,16 @@
             </table>
          </div>
 
+         <div class="mt-4 border-l-4 border-amber-600 bg-amber-50 p-4">
+            <p class="font-semibold text-amber-900">
+               Aangifte moet gebeuren binnen de 48u. Neem contact op met Selim:
+               <a href="tel:0477272524" class="underline">0477 27 25 24</a> of
+               <a href="mailto:szg.izegem@gmail.com" class="underline"
+                  >szg.izegem@gmail.com</a
+               >
+            </p>
+         </div>
+
          <div class="mt-4 text-sm text-gray-500">
             <p>
                * Dit is de opleg die, na tussenkomst van uw ziekenfonds, voor

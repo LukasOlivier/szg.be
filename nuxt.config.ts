@@ -6,7 +6,13 @@ export default defineNuxtConfig({
          charset: "utf-16",
          viewport: "width=device-width,initial-scale=1",
          titleTemplate: "%s - Spel Zonder Grenzen Izegem",
-
+         script: [
+            {
+               "src": process.env.VITE_UMAMI_SCRIPT_URL,
+               "defer": true,
+               "data-website-id": process.env.VITE_UMAMI_WEBSITE_ID,
+            },
+         ],
          link: [
             {
                rel: "stylesheet",

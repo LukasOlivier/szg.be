@@ -41,7 +41,7 @@
       "@vueuse/motion": "^2.2.6",
       "canvas-confetti": "^1.9.3",
       "mime-types": "^2.1.35",
-      "nuxt-booster": "^3.1.11",
+      "nuxt-booster": "^3.3.0",
       "primeicons": "^7.0.0",
       "primevue": "^3.53.1"
    },

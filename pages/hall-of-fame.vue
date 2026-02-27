@@ -54,6 +54,24 @@ useHead({
 });
 
 const winners = ref({
+   2025: {
+      regular: [
+         "Yama Arashi Bavikhove heren 1",
+         "Judoclub Ingelmunster",
+         "Team Darta 1",
+      ],
+      mixed: [
+         "Judoclub Ingelmunster gemengd",
+         "Judoforce 2 (Familie)",
+         "De Stickers",
+      ],
+      youth: [
+         "Yama Arashi Bavikhove jeugd 2",
+         "Yama Arashi Bavikhove jeugd 1",
+         "The Wibac Warriors",
+      ],
+      drinking: ["-"],
+   },
    2024: {
       regular: [
          "Yama Arashi Bavikhove herenploeg",

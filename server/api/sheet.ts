@@ -64,30 +64,8 @@ export default defineEventHandler(async (event) => {
          return obj;
       });
 
-   // Keep only newest entries per first-column id, and compute latest timestamp
-   const newestEntries = new Map<string, Record<string, string>>();
-   const firstColumnHeader = headers[0].trim();
-   let latestTimestamp: string | null = null;
-
-   sheetData.forEach((entry) => {
-      const id = entry[firstColumnHeader];
-      const updatedAt = entry["Updated_at"];
-      if (!id) return;
-
-      if (
-         !newestEntries.has(id) ||
-         (updatedAt &&
-            updatedAt > (newestEntries.get(id)?.["Updated_at"] || ""))
-      ) {
-         newestEntries.set(id, entry);
-         if (updatedAt && (!latestTimestamp || updatedAt > latestTimestamp)) {
-            latestTimestamp = updatedAt;
-         }
-      }
-   });
-
    return {
-      data: Array.from(newestEntries.values()),
-      timestamp: latestTimestamp,
+      data: Array.from(sheetData.values()),
+      timestamp: null,
    };
 });

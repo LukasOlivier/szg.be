@@ -42,13 +42,20 @@
             <h3 class="text-3xl md:text-4xl lg:text-5xl">
                Ben je klaar om je in te schrijven?
             </h3>
-            <a
-               target="_blank"
-               aria-label="Inschrijven voor SZG 2025"
-               class="font-aachen mt-10 inline-block rounded-lg border-2 border-white px-6 py-4 text-center text-xl uppercase transition-colors duration-300 hover:bg-white hover:text-black md:text-3xl"
-               :href="config.public.googleFormsUrl"
-               >Inschrijven voor SZG {{ thisYear }}</a
+            <button
+               disabled
+               class="font-aachen mt-10 inline-block rounded-lg border-2 border-white px-6 py-4 text-center text-xl uppercase transition-colors duration-300 hover:bg-white hover:text-black disabled:cursor-not-allowed disabled:border-gray-300 disabled:text-gray-300 disabled:hover:bg-transparent disabled:hover:text-gray-300 md:text-3xl"
             >
+               <a
+                  target="_blank"
+                  aria-label="Inschrijven voor SZG 2025"
+                  :href="config.public.googleFormsUrl"
+                  class="pointer-events-none"
+               >
+                  <!-- Inschrijven voor SZG {{ thisYear }}</a> -->
+                  Inschrijvingen gesloten</a
+               >
+            </button>
          </div>
       </div>
       <div class="mx-auto my-10 w-11/12 pb-40 md:w-8/12 lg:w-6/12">
